@@ -1,2 +1,4 @@
 <?php
-    echo "Página principal";
+    require_once "configs/autoload.php";
+
+    $aluno = new Aluno();
